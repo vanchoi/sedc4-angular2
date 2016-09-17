@@ -8,6 +8,6 @@ var Person = (function () {
         return this.firstName + " " + this.lastName;
     };
     return Person;
-})();
+}());
 var weko = new Person("Wekoslav", "Stefanovski");
 console.log(weko.getFullName());
