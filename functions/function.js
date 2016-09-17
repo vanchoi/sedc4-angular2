@@ -16,5 +16,5 @@ function spread(separator) {
     for (var _i = 1; _i < arguments.length; _i++) {
         values[_i - 1] = arguments[_i];
     }
-    return values.map(function (v) { return v.toString(); }).join(separator);
+    return values.map(function (v) { return v.toUpper(); }).join(separator);
 }
