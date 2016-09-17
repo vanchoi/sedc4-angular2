@@ -2,11 +2,11 @@ var operators = {
     '+': function (x, y) { return x + y; },
     '-': function (x, y) { return x - y; },
     '*': function (x, y) { return x * y; },
-    '/': function (x, y) { return x / y; }
+    '/': function (x, y) { return x / y; },
 };
 var person = {
     firstName: undefined,
-    lastName: "Stefanovski"
+    lastName: "Stefanovski",
 };
 function getFullName(person) {
     return person.firstName + " " + person.lastName;
